@@ -57,7 +57,8 @@ README.md
 
 5. **Criar tabelas**
 
-   A AplicaÇão SpringBoot
+   A AplicaÇão SpringBoot utiliza anotações Jakarta e Lombok para gerar automáticamente as tabelas necesárias.
+   O arquivo TaskEntity possui o construtor e as anotações utilizadas para gerar a tabela "tb_task", para isso é necessário executar a aplicação Maven depois de iniciar o Docker
 
 6. **Compile e execute a aplicação Vue:**
 
