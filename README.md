@@ -31,21 +31,39 @@ README.md
    git clone https://github.com/usuario/repositorio.git
    ```
 
-2. **Navegue até o diretório do projeto:**
+2. **Execute o docker-compose.yaml**
+
+   ```bash
+   docker compose up
+   ```
+   Confirmae no docker local se o container do DB está funcionando
+   Se estiver parado então é necessário liga-lo
+
+
+3. **Navegue até o diretório do projeto:**
 
    ```bash
    cd repositorio
    ```
 
-3. **Compile e execute a aplicação com Maven:**
+4. **Compile e execute a aplicação com Maven:**
 
    ```bash
    mvn clean install
    mvn spring-boot:run
    ```
 
+   Os Endpoints estarão disponíveis em [http://localhost:8080](http://localhost:8080).
+
+5. **Criar tabelas**
+
+   A AplicaÇão SpringBoot
+
+6. **Compile e execute a aplicação Vue:**
+
+   ```bash
+   npm install
+   npm run dev
+   ```
+
    A aplicação estará disponível em [http://localhost:5173](http://localhost:5173).
-
-## Documentação da API
-
-A documentação da API está localizada na pasta `/api`. Nela, você encontrará informações sobre os endpoints disponíveis, parâmetros necessários e exemplos de uso.

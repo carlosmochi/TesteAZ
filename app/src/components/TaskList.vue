@@ -91,11 +91,11 @@ export default {
       TaskService.updateTask(data.id, data)
         .then(response => {
           alert(response.data)
-          this.getAllTasks()
+          this.getAllTasks();
         })
         .catch(error => {
           alert(error.response.data.message)
-          this.getAllTasks()
+          this.getAllTasks();
         })
     }
   },

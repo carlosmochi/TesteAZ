@@ -1,0 +1,8 @@
+com/testeaz/testeaz/CORSConfiguration.class
+com/testeaz/testeaz/repository/TaskRepository.class
+com/testeaz/testeaz/exceptions/TamanhoDeTextoInvalidoException.class
+com/testeaz/testeaz/services/TaskServices.class
+com/testeaz/testeaz/TesteazApplication.class
+com/testeaz/testeaz/exceptions/TituloVazioException.class
+com/testeaz/testeaz/controller/TaskController.class
+com/testeaz/testeaz/entity/TaskEntity.class

@@ -1,8 +1,8 @@
-/api/src/main/java/com/testeaz/testeaz/CORSConfiguration.java
-/api/src/main/java/com/testeaz/testeaz/TesteazApplication.java
-/api/src/main/java/com/testeaz/testeaz/controller/TaskController.java
-/api/src/main/java/com/testeaz/testeaz/entity/TaskEntity.java
-/api/src/main/java/com/testeaz/testeaz/exceptions/TamanhoDeTextoInvalidoException.java
-/api/src/main/java/com/testeaz/testeaz/exceptions/TituloVazioException.java
-/api/src/main/java/com/testeaz/testeaz/repository/TaskRepository.java
-/api/src/main/java/com/testeaz/testeaz/services/TaskServices.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/CORSConfiguration.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/TesteazApplication.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/controller/TaskController.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/entity/TaskEntity.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/exceptions/TamanhoDeTextoInvalidoException.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/exceptions/TituloVazioException.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/repository/TaskRepository.java
+/Users/carlosmochi/TesteAZ/api/src/main/java/com/testeaz/testeaz/services/TaskServices.java
