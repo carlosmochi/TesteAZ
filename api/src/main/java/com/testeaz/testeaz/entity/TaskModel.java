@@ -1,4 +1,4 @@
-package com.testeaz.testeaz.model;
+package com.testeaz.testeaz.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -9,7 +9,6 @@ import jakarta.persistence.Table;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// Essa Classe é usada pra criar automaticamente a tabela no Banco de Dados
 @Entity
 @Table( name = "tb_task")
 @Data
