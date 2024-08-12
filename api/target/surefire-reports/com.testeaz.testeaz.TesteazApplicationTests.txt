@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.testeaz.testeaz.TesteazApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.076 s -- in com.testeaz.testeaz.TesteazApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.151 s -- in com.testeaz.testeaz.TesteazApplicationTests
