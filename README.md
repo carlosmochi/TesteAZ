@@ -5,6 +5,7 @@ Teste_AZ - Gerenciamento de Tarefas Simples
 ## Descrição
 
 Este projeto é um criado como um teste para o processo de seleção da "AZ - Tecnologia em Gestão". É uma aplicação que realiza um gerenciamento simples de Tarefas. Na página inicial são mostradas todas as tarefas e um botão que, ao ser clickado, mostra um formulário para criar uma nova Tarefa. Cada tarefa está separada em um Card com nome, descrição, status (completo ou incompleto) e três botões para: Alterar a Tarefa, Deletar a tarefa e marcar a tarefa como completa.
+O Backend foi criado com SpringBoot e Maven, e o Frontend foi criado em Vue e Bootstrap.
 
 ## Estrutura do Projeto
 
