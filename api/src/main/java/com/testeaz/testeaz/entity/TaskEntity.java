@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Table( name = "tb_task")
 @Data
 @NoArgsConstructor
-public class TaskModel {
+public class TaskEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;

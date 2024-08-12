@@ -1,7 +1,8 @@
+/api/src/main/java/com/testeaz/testeaz/CORSConfiguration.java
 /api/src/main/java/com/testeaz/testeaz/TesteazApplication.java
 /api/src/main/java/com/testeaz/testeaz/controller/TaskController.java
-/api/src/main/java/com/testeaz/testeaz/exceptions/InvalidTextSizeException.java
-/api/src/main/java/com/testeaz/testeaz/exceptions/NoTitleException.java
-/api/src/main/java/com/testeaz/testeaz/model/TaskModel.java
+/api/src/main/java/com/testeaz/testeaz/entity/TaskEntity.java
+/api/src/main/java/com/testeaz/testeaz/exceptions/TamanhoDeTextoInvalidoException.java
+/api/src/main/java/com/testeaz/testeaz/exceptions/TituloVazioException.java
 /api/src/main/java/com/testeaz/testeaz/repository/TaskRepository.java
 /api/src/main/java/com/testeaz/testeaz/services/TaskServices.java

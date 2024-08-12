@@ -2,13 +2,14 @@ import http from './API/APIConnection'
 
 class TaskService {
   getAllTasks() {
-    return http.get(`/`)
+    http.defaults.headers.get['Access-Control-Allow-Origin'] = '*';
+    return http.get()
   }
   getTaskById(id) {
     return http.get(`/${id}`)
   }
   createNewTask(data) {
-    return http.post('/', data)
+    return http.post('',data)
   }
   updateTask(id, data) {
     return http.put(`/${id}`, data)

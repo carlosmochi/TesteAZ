@@ -93,7 +93,10 @@ export default {
           alert(response.data)
           this.getAllTasks()
         })
-        .catch(error => console.log(error))
+        .catch(error => {
+          alert(error.response.data.message)
+          this.getAllTasks()
+        })
     }
   },
   mounted() {

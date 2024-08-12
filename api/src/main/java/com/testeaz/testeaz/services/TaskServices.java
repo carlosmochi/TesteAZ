@@ -5,7 +5,7 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.testeaz.testeaz.entity.TaskModel;
+import com.testeaz.testeaz.entity.TaskEntity;
 import com.testeaz.testeaz.repository.TaskRepository;
 
 import jakarta.transaction.Transactional;
@@ -18,20 +18,20 @@ public class TaskServices {
     }
 
     @Transactional
-    public TaskModel save(TaskModel taskModel){
+    public TaskEntity save(TaskEntity taskModel){
         return taskRepository.save(taskModel);
     }
 
     @Transactional
-    public void delete(TaskModel taskModel){
+    public void delete(TaskEntity taskModel){
         taskRepository.delete(taskModel);
     }
 
-    public List<TaskModel> findAll(){
+    public List<TaskEntity> findAll(){
         return taskRepository.findAll();
     }
 
-    public Optional<TaskModel> findById(Long id){
+    public Optional<TaskEntity> findById(Long id){
         return taskRepository.findById(id);
     }
 
