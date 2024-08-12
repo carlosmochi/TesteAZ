@@ -1,0 +1,7 @@
+/api/src/main/java/com/testeaz/testeaz/TesteazApplication.java
+/api/src/main/java/com/testeaz/testeaz/controller/TaskController.java
+/api/src/main/java/com/testeaz/testeaz/exceptions/InvalidTextSizeException.java
+/api/src/main/java/com/testeaz/testeaz/exceptions/NoTitleException.java
+/api/src/main/java/com/testeaz/testeaz/model/TaskModel.java
+/api/src/main/java/com/testeaz/testeaz/repository/TaskRepository.java
+/api/src/main/java/com/testeaz/testeaz/services/TaskServices.java

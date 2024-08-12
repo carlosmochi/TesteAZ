@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: teste_az
+    ports:
+      - "5173:5173"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d teste_az"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 5s
+
+
+  api:
+    image: openjdk:17
+    container_name: spring_boot_app
+    working_dir: /api
+    volumes:
+      - ./api:/api
+    command: "./mvnw spring-boot:run"
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: "curl --fail localhost:8081/actuator/health | grep UP || exit 1"
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+    depends_on:
+      db:
+        condition: service_healthy
+
+  app:
+    image: node:20
+    container_name: vue_app
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    command: "npm run dev"
+    ports:
+      - "8081:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+
+# Define healthcheck for db service
