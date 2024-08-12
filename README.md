@@ -4,8 +4,7 @@ Teste_AZ - Gerenciamento de Tarefas Simples
 
 ## Descrição
 
-Este projeto é um criado como um teste para o processo de seleção da "AZ - Tecnologia em Gestão". O raiz possuem dias pastas:
-   -api: Possui o Backend criado com SpringBoot e Maven e possui 5 Endpoints para conectar o frontend ao Banco de Dados em PostGres
+Este projeto é um criado como um teste para o processo de seleção da "AZ - Tecnologia em Gestão". É uma aplicação que realiza um gerenciamento simples de Tarefas. Na página inicial são mostradas todas as tarefas e um botão que, ao ser clickado, mostra um formulário para criar uma nova Tarefa. Cada tarefa está separada em um Card com nome, descrição, status (completo ou incompleto) e três botões para: Alterar a Tarefa, Deletar a tarefa e marcar a tarefa como completa.
 
 ## Estrutura do Projeto
 
@@ -44,7 +43,7 @@ README.md
    mvn spring-boot:run
    ```
 
-   A aplicação estará disponível em [http://localhost:8080](http://localhost:8080).
+   A aplicação estará disponível em [http://localhost:5173](http://localhost:5173).
 
 ## Documentação da API
 
