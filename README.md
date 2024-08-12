@@ -40,10 +40,11 @@ README.md
    Se estiver parado então é necessário liga-lo
 
 
-3. **Navegue até o diretório do projeto:**
+3. **Navegue até o diretório da API:**
 
+   Inicie um novo terminal
    ```bash
-   cd repositorio
+   cd api
    ```
 
 4. **Compile e execute a aplicação com Maven:**
@@ -59,6 +60,15 @@ README.md
 
    A AplicaÇão SpringBoot utiliza anotações Jakarta e Lombok para gerar automáticamente as tabelas necesárias.
    O arquivo TaskEntity possui o construtor e as anotações utilizadas para gerar a tabela "tb_task", para isso é necessário executar a aplicação Maven depois de iniciar o Docker
+
+3. **Navegue até o diretório da APP:**
+   
+   Inicie um novo terminal
+
+   ```bash
+   cd app
+   ```
+
 
 6. **Compile e execute a aplicação Vue:**
 
